@@ -1,12 +1,12 @@
 import React from 'react';
-import useProducts from '../../hooks/useProducts';
+import img from '../../images/giphy.gif'
 
 const Inventory = () => {
-    const [products] = useProducts();
+    
     return (
-        <div>
-
-            <h1>This is inventory page{products.length}</h1>
+        <div style={{textAlign:'center'}}>
+            <img src={img} alt="gif" />
+            <h1>This is inventory page</h1>
         </div>
     );
 };

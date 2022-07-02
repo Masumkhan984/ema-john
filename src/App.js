@@ -11,7 +11,6 @@ function App() {
       <BrowserRouter>
         <Header></Header>
         <Routes>
-          <Route path='/shop' element={<Shop />} />
           <Route exact path='/' element={<Shop />} />
           <Route path='/orders' element={<OrderReview />} />
           <Route path='/inventory' element={<Inventory />} />
